@@ -27,7 +27,7 @@ def adm():
 
 label1 = Label(main)
 label1.place(relx=0, rely=0, width=1366, height=768)
-img = PhotoImage(file="./images/main1.png")
+img = PhotoImage(file=".\images\sodapdf-converted.png")
 label1.configure(image=img)
 
 label_title = Label(main, text="INGRESAR", font=("Impact", 40), bg="#ffffff", fg="#d46c91")
